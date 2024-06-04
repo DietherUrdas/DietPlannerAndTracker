@@ -9,4 +9,13 @@
     <string name="recipes_this_week">Recipes this week</string>
     <string name="welcome_user">Welcome, [user]</string>
     <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="lock">TODO</string>
+    <string name="not_registered_yet">Not registered yet?</string>
+    <string name="goyo_development_nall_rights_unreserved_2024">Goyo Development\nAll Rights Unreserved 2024</string>
+    <string name="usericon">userIcon</string>
+    <string name="password">Password</string>
+    <string name="gridlayout">gridlayout</string>
 </resources>

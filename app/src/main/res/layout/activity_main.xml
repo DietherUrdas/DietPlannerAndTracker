@@ -35,7 +35,7 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="176dp"
+            android:layout_height="173dp"
             android:layout_margin="3px"
             android:alignmentMode="alignMargins"
             android:columnCount="2"
