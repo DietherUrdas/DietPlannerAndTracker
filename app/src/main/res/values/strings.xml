@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidLabActivitySaromo</string>
+    <string name="plan_breakfast">Plan Breakfast</string>
+    <string name="plan_dinner">Plan Dinner</string>
+    <string name="plan_lunch">Plan Lunch</string>
+    <string name="plan_snack">Plan Snack</string>
+    <string name="welcome_to_diet_planner">Welcome to Diet Planner!</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="recipes_this_week">Recipes this week</string>
+    <string name="welcome_user">Welcome, [user]</string>
+    <string name="todo">TODO</string>
+</resources>
