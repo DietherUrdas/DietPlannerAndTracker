@@ -29,7 +29,8 @@
                 android:padding="16dp"
                 android:text="@string/dashboard"
                 android:textColor="#000000"
-                android:textSize="48sp" />
+                android:textSize="48sp"
+                tools:ignore="GridLayout" />
 
             <TextView
                 android:id="@+id/textView"
