@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4">
+    android:background="#FFFF">
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/diet_planner" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordInput"
         android:layout_width="278dp"
         android:layout_height="48dp"
         android:autofillHints=""
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.513" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/usernameInput"
         android:layout_width="278dp"
         android:layout_height="48dp"
         android:autofillHints=""
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.426" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/loginbutton"
         android:layout_width="332dp"
         android:layout_height="48dp"
         android:text="@string/login"
@@ -74,7 +74,7 @@
         app:layout_constraintVertical_bias="0.733">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/randtext"
             android:layout_width="161dp"
             android:layout_height="51dp"
             android:text="@string/not_registered_yet"
@@ -85,7 +85,7 @@
             tools:ignore="TextSizeCheck" />
 
         <Button
-            android:id="@+id/signup"
+            android:id="@+id/signupButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#FF5900"
@@ -103,7 +103,7 @@
         android:layout_height="41dp"
         android:contentDescription="@string/usericon"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextText"
+        app:layout_constraintEnd_toStartOf="@+id/usernameInput"
         app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -111,12 +111,12 @@
         app:srcCompat="@drawable/user" />
 
     <ImageView
-        android:id="@+id/lock"
+        android:id="@+id/lockIcon"
         android:layout_width="48dp"
         android:layout_height="41dp"
         android:contentDescription="@string/lock"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toStartOf="@+id/passwordInput"
         app:layout_constraintHorizontal_bias="0.792"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -124,7 +124,7 @@
         app:srcCompat="@drawable/padlock" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/Goyotext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/goyo_development_nall_rights_unreserved_2024"
